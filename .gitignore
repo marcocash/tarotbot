@@ -1,0 +1,43 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Python cache / build
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Local env and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*token*.txt
+dd/yoomoney_token.txt
+АПИ КЛЮЧИ.txt
+
+# Databases and runtime artifacts
+*.db
+*.sqlite
+*.sqlite3
+*.db-journal
+*.log
+
+# IDE leftovers from old templates
+shelf/
+workspace.xml
