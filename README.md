@@ -1,0 +1,2 @@
+# tarotbot
+ai tarot bot
